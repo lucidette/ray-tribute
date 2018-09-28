@@ -1,0 +1,52 @@
+
+html,body {
+
+	text-align: center;
+	font-family: 'Noto Serif JP', sans-serif;
+}
+
+#main {
+	position: relative;
+  	margin: auto;
+  	max-width: 960px;
+    padding:50px;
+ 	border:0px solid;
+  	border-radius:5px;
+  	background:#eee;
+}
+
+#image {
+	position: relative;
+  	margin: auto;
+	width: 100%;
+	max-width: 400px;
+	height: auto;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	padding: 50px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+#tribute-info {
+	margin: 100px auto 100px auto;
+}
+
+#movie-grid {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-template-rows: 400px 400px 400px;
+	grid-gap: 25px;
+	
+
+}
+
+#movie-grid > img {
+	position:relative;
+	object-fit: cover;
+  	width: 100%;
+ 	height: 100%;
+}
+  
+#tribute-link {
+	margin: 100px;
+}
